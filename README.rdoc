@@ -1,0 +1,73 @@
+
+cuppa_sugar
+A networking systems that allows you to search your friend's items for things that you may want to borrow, keep track of your borrowed and lent items and find how far away your generous friends are!
+
+-----WIRE FRAME:-----
+APP Planned out with Prototyper: 
+https://popapp.in/projects/52d353d8956776cd54000053/preview
+
+-----REQUIREMENTS AND GEMS-----
+
+httparty
+json
+twilio-ruby
+oniauth
+UNIREST
+google-map-driving-direction API
+
+
+#############  MAPPING   API   ############
+
+https://www.mashape.com/montanaflynn/google-maps-driving-directions#!endpoint-Directions
+
+
+########## SCHEMA ##############
+
+
+
+------USERS--------
+name:string
+passcode:string
+bio:text
+image_url:string
+street_address:string
+city:string
+state:string
+
+--------ITEMS------
+name:string
+description:text
+category:string
+owner_id:integer 
+
+-------BORROWS---------
+borrower_id:integer 
+item_id:integer 
+borrowed:boolean
+
+t.timestamps 
+
+
+
+USERS have many items
+
+BORROWS belong to USERS
+
+BORROWS belong to ITEMS 
+
+
+
+                         |-           -|
+        -----------------|-  BORROWS  -|-----------------
+        |                |-           -|                | 
+        |                                               |
+        |                                               |
+        |                                               |
+        |                                               |
+      USERS       ------------has many------->       ITEMS
+                                                   
+
+
+
+
+

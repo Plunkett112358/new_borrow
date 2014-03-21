@@ -1,0 +1,22 @@
+<h2 class="logo">Borr.ow</h2>
+
+
+<h2 class="logo">Sign in!</h2>
+
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+  <div><%= f.label :email %><br />
+  <%= f.email_field :email, class: "form-control" %></div>
+
+  <div><%= f.label :password %><br />
+  <%= f.password_field :password, class: "form-control" %></div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+  <% end -%>
+
+  <div><%= f.submit "Sign in" %></div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+
+<img src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">

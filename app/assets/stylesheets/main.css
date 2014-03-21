@@ -1,0 +1,36 @@
+/*main where all non boot strap methods are put*/
+
+
+.nav {
+
+  color: blue;
+  
+}
+
+.nav-tab {
+  color: blue;
+}
+
+.logo {
+  font-family: 'Gravitas One', cursive;
+  color:#5F2D00;
+  
+}
+
+#user-info{
+text-align: center;
+ /* border-radius: 100%;*/
+}
+
+.bold {
+  font-weight: bold;
+  color: #2A5E8C;
+}
+
+.circle {
+  border: black, 12px;
+}
+
+.line {
+  text-align: center;
+}

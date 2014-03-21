@@ -1,0 +1,156 @@
+<div class="circle">
+<section id='user-info'>
+
+
+   <img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+   <img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+   <img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+   <img style= "width: 150px" src="<%= current_user.image_url %>"/> 
+
+<img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+<img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+   <img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt=""></br>
+  <h4 class="logo"><%= current_user.name %></h4></br>
+  <%= current_user.bio %></br>
+  <%= current_user.city %>,
+  <%= current_user.state %>
+
+ </section> </div>
+
+
+<!-- my borrows table
+ -->
+
+<h4 class="logo">Books I've Borrowed</h4>
+<table class="table table-bordered table-hover">
+<section id='user-borrows'>
+<thead>
+  <tr>
+      <td class="bold">Title</td>
+      <td class="bold">Author</td>
+      <td class="bold">Description</td>
+      <td class="bold">Date</td>
+      <td class="bold">Returned?</td>
+    </tr>
+
+</thead>
+<tbody>
+  <tr>
+  <% @my_borrows.each do |borrow| %>
+
+    <td><%= borrow.item.name%></td>
+    <td><%= borrow.item.author %></td>
+    <td><%= borrow.item.description %></td>
+    <td><%= borrow.created_at.strftime("Borrowed on %m/%d/%Y") %></td>
+     <td class="bold"><%= link_to "Returned", borrow_path(borrow), method: "delete" %></td>
+<tr><% end %>
+
+</tbody></table>
+</section> 
+
+
+
+
+<!-- My Items Currently Being borrowed
+ -->
+
+ <h4 class="logo">Books of Mine Currently Being Borrowed</h4>
+<table class="table table-bordered table-hover">
+<section id='user-borrows'>
+<thead>
+  <tr>
+      <td class="bold">Title</td>
+      <td class="bold">Author</td>
+      <td class="bold">Description</td>
+      <td class="bold">Currently in the Possesion of</td>
+      <td class="bold">Date</td>
+      <td class="bold">Returned?</td>
+      <td class="bold">Send a Text Message Reminder</td>
+    </tr>
+
+</thead>
+<tbody>
+  <tr>
+  <% @my_lends.each do |lend| %>
+
+    <td><%= lend.item.name%></td>
+    <td><%= lend.item.author %></td>
+    <td><%= lend.item.description %></td>
+    <td><%= lend.item.user.name %></td>
+    <td><%= lend.created_at.strftime("Borrowed on %m/%d/%Y") %></td>
+    <td><%= lend.item.borrowed %></td>
+
+    <td><%= button_to "Remind", {:controller => "users", :action => "sms", id: lend.item.user.id},method: :post %></td>
+   
+<tr>
+<% end %>
+
+</tbody></table>
+</section> 
+
+
+
+
+
+
+
+<!-- things I own -->
+
+<h4 class="logo">Books I Own</h4>
+<!-- add an item -->
+
+
+
+<h4>(Add a new Item)</h4>
+<%= form_for @new_item do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %> 
+
+ <%= f.label :author %>
+  <%= f.text_field :author %>
+
+   <%= f.label :description %>
+  <%= f.text_field :description %>  
+
+<%= f.submit :submit, class: 'btn btn-primary' %>
+<%end %>
+
+
+<!-- add an item -->
+
+<section id='user-items'>
+<table class="table table-bordered table-hover">
+<thead>
+  <tr>
+      <td class="bold">Title</td>
+      <td class="bold">Author</td>
+      <td class="bold">Description</td>
+      <td class="bold">Already Borrowed?</td>
+      <td class="bold">Delete</td>
+      
+    </tr>
+</thead>
+
+<tbody>
+  
+  <% @items.each do |item| %>
+<tr>
+    <td><%= item.name %></td>
+    <td><%= item.author %></td>
+    <td><%= item.description %></td>
+    <td><%=item.borrowed%></td>
+    <td><%= link_to "Delete", item_path(item), method: "delete" %></td>
+
+  <% end %>
+</tr>
+</tbody>
+
+</table>
+ </section>
+
+

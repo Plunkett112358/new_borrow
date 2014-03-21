@@ -1,0 +1,1017 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "items" does not exist
+LINE 5:              WHERE a.attrelid = '"items"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"items"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (50.7ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 21:22:58 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 21:22:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "book"], ["created_at", Mon, 13 Jan 2014 21:22:58 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 21:22:58 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 21:22:58 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 21:22:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 21:23:47 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 21:23:47 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "book"], ["created_at", Mon, 13 Jan 2014 21:23:47 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 21:23:47 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 21:23:47 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 21:23:47 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 21:56:13 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 21:56:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "book"], ["created_at", Mon, 13 Jan 2014 21:56:13 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 21:56:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 21:56:13 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 21:56:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:03:59 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:03:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:03:59 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:03:59 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:03:59 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:03:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.7ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:06:17 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:06:17 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:06:17 -0500
+Processing by ItemsController#index as HTML
+Completed 500 Internal Server Error in 13.2ms
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:06:17 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:06:17 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:06:17 -0500
+Processing by ItemsController#index as HTML
+Completed 500 Internal Server Error in 1.0ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:06:17 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:06:17 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:06:17 -0500
+Processing by ItemsController#index as HTML
+Completed 500 Internal Server Error in 0.8ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (8.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:08:12 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:08:12 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:08:12 -0500
+Processing by ItemsController#index as HTML
+  Rendered items/index.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 47.9ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:08:12 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:08:12 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:08:12 -0500
+Processing by ItemsController#index as HTML
+  Rendered items/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:08:12 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:08:12 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:08:12 -0500
+Processing by ItemsController#index as HTML
+  Rendered items/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:10:22 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:10:22 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:10:22 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15.2ms (Views: 12.8ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:10:22 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:10:22 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:10:22 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3.0ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:10:22 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:10:22 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:10:22 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2.8ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "tool"], ["created_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00], ["description", "medium sized"], ["name", "hammer"], ["updated_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:15:38 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13.9ms (Views: 11.5ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "tool"], ["created_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00], ["description", "medium sized"], ["name", "hammer"], ["updated_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:15:38 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2.8ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "tool"], ["created_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00], ["description", "medium sized"], ["name", "hammer"], ["updated_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:15:38 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2.8ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:15:38 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3.0ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:15:38 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3.3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category", "book"], ["created_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00], ["description", "The best book ever"], ["name", "White Noise"], ["updated_at", Mon, 13 Jan 2014 22:15:38 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/items" for 127.0.0.1 at 2014-01-13 17:15:38 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.6ms)[0m  [1mSELECT "items".* FROM "items" [0m
+  Rendered items/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3.5ms (Views: 1.9ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 5:              WHERE a.attrelid = '"users"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"users"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.5ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 01:48:14 UTC +00:00], ["image_url", nil], ["name", "Tanner"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 01:48:14 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.8ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 01:48:31 UTC +00:00], ["image_url", nil], ["name", "Tanner"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 01:48:31 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 01:49:15 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 01:49:15 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 01:49:51 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 01:49:51 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 01:49:51 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 01:49:51 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.9ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 01:50:19 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 01:50:19 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 01:50:19 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 01:50:19 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (32.2ms)[0m  [1mUPDATE "items" SET "owner_id" = 4, "updated_at" = '2014-01-14 01:50:19.244018' WHERE "items"."id" = 3[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 01:53:26 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 01:53:26 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 01:53:26 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 01:53:26 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (38.1ms)[0m  [1mUPDATE "items" SET "owner_id" = 5, "updated_at" = '2014-01-14 01:53:26.100104' WHERE "items"."id" = 4[0m
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:00:32 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:00:32 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:00:32 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:00:32 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 6, "updated_at" = '2014-01-14 02:00:32.301379' WHERE "items"."id" = 5[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:01:27 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:01:27 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:01:27 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:01:27 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 7, "updated_at" = '2014-01-14 02:01:27.148195' WHERE "items"."id" = 6[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (7.1ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:03:32 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:03:32 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:03:32 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:03:32 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 8, "updated_at" = '2014-01-14 02:03:32.476784' WHERE "items"."id" = 7[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:04:53 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:04:53 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:04:54 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:04:54 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 9, "updated_at" = '2014-01-14 02:04:54.038615' WHERE "items"."id" = 8[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (7.0ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:05:45 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:05:45 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:05:46 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:05:46 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 10, "updated_at" = '2014-01-14 02:05:46.075585' WHERE "items"."id" = 9[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:05:46 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:05:46 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:05:46 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:05:46 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "items" SET "owner_id" = 11, "updated_at" = '2014-01-14 02:05:46.085582' WHERE "items"."id" = 10
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (7.4ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 12, "updated_at" = '2014-01-14 02:10:30.626071' WHERE "items"."id" = 11[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "items" SET "owner_id" = 13, "updated_at" = '2014-01-14 02:10:30.635399' WHERE "items"."id" = 12
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:10:30 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "items" SET "owner_id" = 14, "updated_at" = '2014-01-14 02:10:30.643522' WHERE "items"."id" = 13[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.7ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 15, "updated_at" = '2014-01-14 02:10:46.125093' WHERE "items"."id" = 14[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "items" SET "owner_id" = 16, "updated_at" = '2014-01-14 02:10:46.134758' WHERE "items"."id" = 15
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:10:46 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "items" SET "owner_id" = 17, "updated_at" = '2014-01-14 02:10:46.142063' WHERE "items"."id" = 16[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 18, "updated_at" = '2014-01-14 02:28:27.154256' WHERE "items"."id" = 17[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "items" SET "owner_id" = 19, "updated_at" = '2014-01-14 02:28:27.168057' WHERE "items"."id" = 18
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00], ["image_url", nil], ["name", "Tanner"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "items" SET "owner_id" = 21, "updated_at" = '2014-01-14 02:28:27.177055' WHERE "items"."id" = 19
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:28:27 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "items" SET "owner_id" = 22, "updated_at" = '2014-01-14 02:28:27.184410' WHERE "items"."id" = 20[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 23, "updated_at" = '2014-01-14 02:35:11.449307' WHERE "items"."id" = 21[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "items" SET "owner_id" = 24, "updated_at" = '2014-01-14 02:35:11.459110' WHERE "items"."id" = 22
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "items" SET "owner_id" = 25, "updated_at" = '2014-01-14 02:35:11.471599' WHERE "items"."id" = 23[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00], ["image_url", nil], ["name", "Tanner"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (18.4ms)[0m  [1mINSERT INTO "borrows" ("borrowed", "borrower_id", "created_at", "item_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["borrowed", true], ["borrower_id", 26], ["created_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00], ["item_id", 23], ["updated_at", Tue, 14 Jan 2014 02:35:11 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.8ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 27, "updated_at" = '2014-01-14 02:36:50.480066' WHERE "items"."id" = 24[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "items" SET "owner_id" = 28, "updated_at" = '2014-01-14 02:36:50.490235' WHERE "items"."id" = 25
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mUPDATE "items" SET "owner_id" = 29, "updated_at" = '2014-01-14 02:36:50.502382' WHERE "items"."id" = 26[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00], ["image_url", nil], ["name", "Tanner"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "borrows" ("borrowed", "borrower_id", "created_at", "item_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["borrowed", true], ["borrower_id", 30], ["created_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00], ["item_id", 26], ["updated_at", Tue, 14 Jan 2014 02:36:50 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mBorrow Load (0.4ms)[0m  SELECT "borrows".* FROM "borrows" WHERE "borrows"."item_id" = 26
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "items" SET "owner_id" = 31, "updated_at" = '2014-01-14 02:38:54.392819' WHERE "items"."id" = 27[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "items" SET "owner_id" = 32, "updated_at" = '2014-01-14 02:38:54.407060' WHERE "items"."id" = 28
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "items" SET "owner_id" = 33, "updated_at" = '2014-01-14 02:38:54.415068' WHERE "items"."id" = 29[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00], ["image_url", nil], ["name", "Tanner"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "borrows" ("borrowed", "borrower_id", "created_at", "item_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["borrowed", true], ["borrower_id", 34], ["created_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00], ["item_id", 29], ["updated_at", Tue, 14 Jan 2014 02:38:54 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.7ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (1.2ms)[0m  [1mUPDATE "items" SET "owner_id" = 35, "updated_at" = '2014-01-14 02:40:34.436521' WHERE "items"."id" = 30[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "items" SET "owner_id" = 36, "updated_at" = '2014-01-14 02:40:34.448657' WHERE "items"."id" = 31
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00], ["image_url", nil], ["name", "Tanner"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "borrows" ("borrowed", "borrower_id", "created_at", "item_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["borrowed", true], ["borrower_id", 37], ["created_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00], ["item_id", 31], ["updated_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBorrow Load (0.6ms)[0m  SELECT "borrows".* FROM "borrows" WHERE "borrows"."item_id" = 31 AND "borrows"."borrowed" = 't' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:40:34 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "items" SET "owner_id" = 38, "updated_at" = '2014-01-14 02:40:34.491502' WHERE "items"."id" = 32
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.7ms)[0m  [1mUPDATE "items" SET "owner_id" = 39, "updated_at" = '2014-01-14 02:42:32.941845' WHERE "items"."id" = 33[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "items" SET "owner_id" = 40, "updated_at" = '2014-01-14 02:42:32.956386' WHERE "items"."id" = 34
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00], ["image_url", nil], ["name", "Tanner"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "borrows" ("borrowed", "borrower_id", "created_at", "item_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["borrowed", true], ["borrower_id", 41], ["created_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00], ["item_id", 34], ["updated_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBorrow Load (0.6ms)[0m  SELECT "borrows".* FROM "borrows" WHERE "borrows"."item_id" = 34 AND "borrows"."borrowed" = 't' LIMIT 1
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 41]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("category", "created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["category", nil], ["created_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00], ["description", nil], ["name", "Moby Dick"], ["owner_id", nil], ["updated_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("bio", "city", "created_at", "image_url", "name", "password", "state", "street_address", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["bio", nil], ["city", nil], ["created_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00], ["image_url", nil], ["name", "Meghann"], ["password", nil], ["state", nil], ["street_address", nil], ["updated_at", Tue, 14 Jan 2014 02:42:32 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "items" SET "owner_id" = 42, "updated_at" = '2014-01-14 02:42:32.996971' WHERE "items"."id" = 35[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m

@@ -1,0 +1,55 @@
+
+<div class="line"><img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+<img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+<img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+<h3 class="logo">Search Results</h3>
+
+<img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+<img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+<img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt=""></div>
+
+<section id='user-items'>
+<table class="table table-bordered table-hover">
+<thead>
+  <tr>
+      <td>Name</td>
+      <td>Author</td>
+      <td>Description</td>
+       <td>Owner</td>
+       <td>Distance</td>
+       <td>Ask to Borrow</td>
+
+  
+    </tr>
+</thead>
+
+<tbody>
+  
+  <% @result.each do |result| %>
+<tr>
+    <td><%= result.name %></td>
+     <td><%= result.author %></td>
+    <td><%= result.description %></td>
+    <td><%= result.user.name %></td>
+    <td><%= result.directions.distance %></td>
+
+    <!-- Borrow.new(item_id: params[:id], user_id: current_user) -->
+     <td><%= form_for @new_borrow do |f|%>
+    <%= f.hidden_field :item_id, :value => result.id %>
+    <%= f.hidden_field :user_id, :value => current_user.id %>
+    
+    
+     <%= f.submit %> <% end %>
+     </td>
+
+  <% end %>
+</tr>
+</tbody>
+
+</table>
+ </section>

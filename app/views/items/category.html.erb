@@ -1,0 +1,59 @@
+<div class="line"><img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+  <img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+  <img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+<h3 class="logo">All Books</h3>
+
+<img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+<img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt="">
+
+<img style= "width: 100px"src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005-1024x813.jpg" alt=""></div>
+<section id='user-items'>
+<table class="table table-bordered table-hover">
+<thead>
+  <tr>
+      <td class="bold">Name</td>
+      <td class="bold">Author</td>
+      <td class="bold">Description</td>
+       <td class="bold">Owner</td>
+       <td class="bold">Distance</td>
+       <td class="bold">Ask to Borrow</td>
+
+  
+    </tr>
+</thead>
+
+<tbody>
+  
+  <% @all.each do |item| %>
+<tr>
+    <td><%= item.name %></td>
+    <td><%= item.author %></td>
+    <td><%= item.description %></td>
+    <td><%= item.user.name %></td>
+    <td><%= item.directions.distance %></td>
+
+<td>
+   <%= form_for @new_borrow do |f|%>
+    <%= f.hidden_field :item_id, :value => item.id %>
+    
+    
+    
+     <%= f.submit %> 
+     <% end %>
+   </form>
+
+
+</td>
+
+
+</tr>
+<% end %>
+
+</tbody>
+
+</table>
+ </section>
